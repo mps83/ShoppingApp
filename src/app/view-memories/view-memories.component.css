@@ -1,0 +1,70 @@
+
+.card{
+  width: 22%;
+  border-radius: 5px;
+  float: left;
+  margin: 20px;
+  margin-left: 8%;
+  background-color: white;
+  height: 15%;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card-content {
+  text-align: center;
+}
+.backButton {
+position: absolute;
+right: 0;
+}
+.container{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  margin-top: 5%;
+  position: absolute;
+  top:0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("../../assets/images/shopping.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.body {
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+.addItem:hover {
+ cursor: pointer;
+}
+.addItem {
+  text-align: center;
+}
